@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-10T16:56:56 EST" name="Suite" finished-at="2024-12-10T16:57:24 EST" duration-ms="27792">
+    <groups>
+    </groups>
+    <test started-at="2024-12-10T16:56:56 EST" name="Test" finished-at="2024-12-10T16:57:24 EST" duration-ms="27792">
+      <class name="HeatmapClickmap.HandC.HomePage1">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:HeatmapClickmap.HandC.HomePage1@2d29b4ee]" started-at="2024-12-10T16:56:56 EST" name="launchWebsite" finished-at="2024-12-10T16:57:03 EST" duration-ms="7051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method signature="testCase()[pri:0, instance:HeatmapClickmap.HandC.HomePage1@2d29b4ee]" started-at="2024-12-10T16:57:03 EST" name="testCase" finished-at="2024-12-10T16:57:24 EST" duration-ms="20701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+      </class> <!-- HeatmapClickmap.HandC.HomePage1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
