@@ -33,10 +33,10 @@ public	WebDriver driver;
 		if (browserName.contains("chrome")) {
 			ChromeOptions options= new ChromeOptions();
 			WebDriverManager.chromedriver().setup();
-			if (browserName.contains("headless"))
-			{
-				options.addArguments("headless");
-			}
+//			if (browserName.contains("headless"))
+//			{
+//				options.addArguments("headless");
+//			}
 			driver = new ChromeDriver(options);
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
