@@ -1,0 +1,6 @@
+pageobjects\HomePage.class
+resources\Reports.class
+pageobjects\AbstractComponents.class
+pageobjects\Courses.class
+pageobjects\Footer.class
+pageobjects\selectingCourse.class

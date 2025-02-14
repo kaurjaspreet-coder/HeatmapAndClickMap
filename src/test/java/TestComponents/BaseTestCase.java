@@ -1,6 +1,7 @@
 package TestComponents;
 
 import java.io.File;
+
 import java.io.FileInputStream;
 
 import java.io.IOException;
@@ -18,13 +19,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
 
-public class BaseTest {
+public class BaseTestCase {
 	
 public	WebDriver driver;
 	public HomePage homepage;
 	
+
 	//initializing the browser
 	public WebDriver initialize() throws IOException {
 		String browserName=System.getProperty("browser")!=null? System.getProperty("browser"):getGlobalProperties("browser");
@@ -57,7 +62,7 @@ public	WebDriver driver;
 	}
 
 	//to launch HomePage
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void launchWebsite() throws IOException, InterruptedException {
 		initialize();
 		 homepage= new HomePage(driver);

@@ -1,13 +1,12 @@
 package HeatmapClickmap.HandC;
 
 import org.testng.annotations.Test;
-
-import TestComponents.BaseTest;
+import TestComponents.BaseTestCase;
 import pageobjects.Courses;
 import pageobjects.Footer;
 import pageobjects.selectingCourse;
 
-public class HomePage1 extends BaseTest {
+public class HomePageTest extends BaseTestCase {
 	@Test
 	public void testCase() throws InterruptedException {
 		String chooseScreenSize="iPhone 12"; 
